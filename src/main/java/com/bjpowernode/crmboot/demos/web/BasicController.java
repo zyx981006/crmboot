@@ -61,7 +61,7 @@ public class BasicController {
         ReturnObject returnObject=new ReturnObject();
         if (user==null){
             returnObject.setCode(Contants.RETURN_OBJECT_CODE_FAIL);
-            returnObject.setMessage("用户名或者密码错误");
+            returnObject.setMessage("用户名或者密码错误a ");
         }
         else {
             if(DateUtils.formateDateTime(new Date()).compareTo(user.getExpireTime())>0){
