@@ -1,0 +1,13 @@
+
+# mysql
+spring:
+  datasource:
+    #MySQL配置
+    driverClassName:  com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/crm2008?useSSL=false&amp;useUnicode=true&amp;characterEncoding=UTF-8
+    username: root
+    password: zyx1998923
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.bjpowernode.crmboot.demos.web
